@@ -29,6 +29,7 @@ export function Header(props: IHeader) {
       <EuiFlexGroup wrap gutterSize="s">
         <EuiFlexItem>
           <EuiFieldText
+            aria-label="Enter a URL in this field as the starting point of a journey"
             placeholder="Enter URL to test"
             value={props.url}
             onKeyUp={onUrlFieldKeyUp}
